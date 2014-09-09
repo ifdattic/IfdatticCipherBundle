@@ -1,0 +1,33 @@
+{
+    "name": "ifdattic/cipher-bundle",
+    "type": "symfony-bundle",
+    "description": "Add a cipher service for encrypting/decrypting values",
+    "keywords": [
+        "cipher",
+        "security",
+        "encrypt",
+        "decrypt",
+        "token",
+        "crypt",
+        "aes",
+        "symfony"
+    ],
+    "homepage": "https://github.com/ifdattic/IfdatticCipherBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew (Andrius) Marcinkevicius",
+            "email": "andrew.web@ifdattic.com",
+            "homepage": "http://ifdattic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "phpseclib/phpseclib": "~0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ifdattic\\CipherBundle\\": ""
+        }
+    }
+}

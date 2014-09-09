@@ -1,0 +1,14 @@
+imports:
+    - { resource: parameters.yml }
+
+services:
+    ifdattic_external_cipher:
+        class: "%ifdattic_cipher.external_cipher.class%"
+        arguments: ["%ifdattic_cipher.external_cipher.mode%"]
+        calls:
+            - [setIV, ["%ifdattic_cipher.external_cipher.iv%"]]
+            - [setKey, ["%ifdattic_cipher.external_cipher.key%"]]
+
+    ifdattic_cipher:
+        class: "%ifdattic_cipher.class%"
+        arguments: ["@ifdattic_external_cipher"]

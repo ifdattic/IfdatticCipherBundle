@@ -1,0 +1,7 @@
+parameters:
+    ifdattic_cipher.class: Ifdattic\CipherBundle\Security\Cipher
+
+    ifdattic_cipher.external_cipher.class: Crypt_AES
+    ifdattic_cipher.external_cipher.mode: CRYPT_AES_MODE_CBC
+    ifdattic_cipher.external_cipher.iv: ~
+    ifdattic_cipher.external_cipher.key: ~
