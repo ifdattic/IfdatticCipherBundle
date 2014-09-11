@@ -1,7 +1,7 @@
 IfdatticCipherBundle
 ====================
 
-[![Build Status](https://travis-ci.org/ifdattic/IfdatticCipherBundle.svg?branch=add-travis)](https://travis-ci.org/ifdattic/IfdatticCipherBundle)
+[![Build Status](https://travis-ci.org/ifdattic/IfdatticCipherBundle.svg?branch=master)](https://travis-ci.org/ifdattic/IfdatticCipherBundle)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/f27157f0-fba2-4b02-b687-6a1cc827c1d3/mini.png)](https://insight.sensiolabs.com/projects/f27157f0-fba2-4b02-b687-6a1cc827c1d3)
 
