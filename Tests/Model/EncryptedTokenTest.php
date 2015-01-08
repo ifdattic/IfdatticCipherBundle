@@ -3,7 +3,7 @@
 /**
  * This file is part of the IfdatticCipherBundle package.
  *
- * (c) IFDattic <http://ifdattic.com>
+ * (c) ifdattic <http://ifdattic.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
